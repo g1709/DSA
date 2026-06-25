@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/g1709/DSA/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/g1709/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0206-reverse-linked-list](https://github.com/g1709/DSA/tree/master/0206-reverse-linked-list) |
 ## Recursion
 |  |
@@ -14,11 +15,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/g1709/DSA/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/g1709/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/g1709/DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Two Pointers
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/g1709/DSA/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/g1709/DSA/tree/master/0142-linked-list-cycle-ii) |
 ## Array
 |  |
 | ------- |
