@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/g1709/DSA/tree/master/0001-two-sum) |
 | [0141-linked-list-cycle](https://github.com/g1709/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/g1709/DSA/tree/master/0142-linked-list-cycle-ii) |
+| [0217-contains-duplicate](https://github.com/g1709/DSA/tree/master/0217-contains-duplicate) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/g1709/DSA/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/g1709/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/g1709/DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/g1709/DSA/tree/master/0001-two-sum) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/g1709/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0217-contains-duplicate](https://github.com/g1709/DSA/tree/master/0217-contains-duplicate) |
 | [0239-sliding-window-maximum](https://github.com/g1709/DSA/tree/master/0239-sliding-window-maximum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/g1709/DSA/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/g1709/DSA/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
@@ -108,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/g1709/DSA/tree/master/0148-sort-list) |
+| [0217-contains-duplicate](https://github.com/g1709/DSA/tree/master/0217-contains-duplicate) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/g1709/DSA/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 ## String
 |  |
