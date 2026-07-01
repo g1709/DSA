@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/g1709/DSA/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/g1709/DSA/tree/master/0242-valid-anagram) |
 | [0349-intersection-of-two-arrays](https://github.com/g1709/DSA/tree/master/0349-intersection-of-two-arrays) |
+| [0387-first-unique-character-in-a-string](https://github.com/g1709/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0771-jewels-and-stones](https://github.com/g1709/DSA/tree/master/0771-jewels-and-stones) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/g1709/DSA/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/g1709/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/g1709/DSA/tree/master/0239-sliding-window-maximum) |
+| [0387-first-unique-character-in-a-string](https://github.com/g1709/DSA/tree/master/0387-first-unique-character-in-a-string) |
 ## Sliding Window
 |  |
 | ------- |
@@ -96,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/g1709/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/g1709/DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Prefix Sum
 |  |
@@ -129,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0242-valid-anagram](https://github.com/g1709/DSA/tree/master/0242-valid-anagram) |
+| [0387-first-unique-character-in-a-string](https://github.com/g1709/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0771-jewels-and-stones](https://github.com/g1709/DSA/tree/master/0771-jewels-and-stones) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/g1709/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/g1709/DSA/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
