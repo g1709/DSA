@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/g1709/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0242-valid-anagram](https://github.com/g1709/DSA/tree/master/0242-valid-anagram) |
+| [0257-binary-tree-paths](https://github.com/g1709/DSA/tree/master/0257-binary-tree-paths) |
 | [0383-ransom-note](https://github.com/g1709/DSA/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/g1709/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0771-jewels-and-stones](https://github.com/g1709/DSA/tree/master/0771-jewels-and-stones) |
@@ -168,21 +169,28 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0100-same-tree](https://github.com/g1709/DSA/tree/master/0100-same-tree) |
 | [0110-balanced-binary-tree](https://github.com/g1709/DSA/tree/master/0110-balanced-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/g1709/DSA/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/g1709/DSA/tree/master/0543-diameter-of-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/g1709/DSA/tree/master/0100-same-tree) |
 | [0110-balanced-binary-tree](https://github.com/g1709/DSA/tree/master/0110-balanced-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/g1709/DSA/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/g1709/DSA/tree/master/0543-diameter-of-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/g1709/DSA/tree/master/0100-same-tree) |
 | [0110-balanced-binary-tree](https://github.com/g1709/DSA/tree/master/0110-balanced-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/g1709/DSA/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/g1709/DSA/tree/master/0543-diameter-of-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/g1709/DSA/tree/master/0100-same-tree) |
+## Backtracking
+|  |
+| ------- |
+| [0257-binary-tree-paths](https://github.com/g1709/DSA/tree/master/0257-binary-tree-paths) |
 <!---LeetCode Topics End-->
