@@ -10,23 +10,27 @@
  */
 class Solution {
     public ListNode deleteMiddle(ListNode head) {
-        ArrayList<Integer> ans = new ArrayList<>();
+        ArrayList<Integer> list = new ArrayList<>();
         ListNode temp = head;
         while(temp!=null){
-            ans.add(temp.val);
+            list.add(temp.val);
             temp=temp.next;
         }
         ListNode dummy = new ListNode(0);
         ListNode dummy1 = dummy;
-        int tar = ans.size()/2;
-        for(int i=0; i<ans.size(); i++){
-            if(i==tar) continue;
+        int target = list.size()/2;
+        for(int i=0; i<list.size(); i++){
+            int v = list.get(i);
+            if(i==target){
+                continue;
+            }
             else{
-                dummy1.next = new ListNode(ans.get(i));
-                dummy1=dummy1.next;
+                dummy1.next = new ListNode(v);
+                dummy1 = dummy1.next;
+
             }
         }
-    return dummy.next;
+        return dummy.next;
         
     }
 }
