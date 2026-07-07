@@ -10,48 +10,36 @@
  */
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        int carry=0;
         ArrayList<Integer> ans = new ArrayList<>();
         ListNode one = l1;
         ListNode two = l2;
-        int carr=0;
         while(one!=null && two!=null){
-            int sum =  one.val+two.val+carr;
-            int temp = sum%10;
-            int t  = sum/10;
-            ans.add(temp);
-            carr=t;
-            one=one.next;
-            two=two.next;
-            
+        int sum = (one.val + two.val + carry)%10;
+        ans.add(sum);
+         carry = (one.val + two.val + carry) / 10;
+         one = one.next;
+         two = two.next;
         }
+        //if(carry>0) ans.add(carry);
         while(one!=null){
-            int sum=one.val+carr;
-            int temp=sum%10;
-            int t = sum/10;
+            int temp = (one.val + carry)%10;
             ans.add(temp);
-            carr=t;
-            one=one.next;
-
+            carry = (one.val + carry) / 10;
+            one = one.next;
         }
-        
         while(two!=null){
-            int sum=two.val+carr;
-            int temp=sum%10;
-            int t = sum/10;
+            int temp = (two.val + carry)%10;
             ans.add(temp);
-            carr=t;
-            two=two.next;
-
+            carry = (two.val + carry) / 10;
+            two = two.next;
         }
-
-        if(carr>0){
-        ans.add(carr);
-        }
+        if(carry>0) ans.add(carry);
         ListNode dummy = new ListNode(0);
         ListNode dummy1 = dummy;
         for(int v : ans){
             dummy1.next = new ListNode(v);
-            dummy1=dummy1.next;
+            dummy1 = dummy1.next;
         }
         return dummy.next;
     }
