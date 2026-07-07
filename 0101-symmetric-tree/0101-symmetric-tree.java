@@ -19,18 +19,19 @@ class Solution {
         if(p==null || q==null) return false;
         if(p.val!=q.val) return false;
         return isSymmetric(p.left, q.right) && isSymmetric(p.right, q.left);
+
     }
+
 
     public static TreeNode invert(TreeNode root){
-        if(root==null) return root;
-        TreeNode l = root.right;
-        TreeNode r = root.left;
-        root.right = invert(l);
-        root.left = invert(r);
+        if(root==null) return null;
+        TreeNode l = root.left;
+        TreeNode  r = root.right;
+        root.left = invert(l);
+        root.right = invert(r);
+
         return root;
-
     }
-
 
 
     public boolean isSymmetric(TreeNode root) {
