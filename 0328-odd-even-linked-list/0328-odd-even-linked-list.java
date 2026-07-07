@@ -10,37 +10,42 @@
  */
 class Solution {
     public ListNode oddEvenList(ListNode head) {
-        ArrayList<Integer> ans =  new ArrayList<>();
+        ArrayList<Integer> one = new ArrayList<>();
+        ArrayList<Integer> two = new ArrayList<>();
+        ArrayList<Integer> ans = new ArrayList<>();
         ListNode temp = head;
         while(temp!=null){
             ans.add(temp.val);
             temp=temp.next;
+
+        }
+        int i=0;
+        while(i<ans.size()){
+            int t = ans.get(i);
+            one.add(t);
+            i+=2;
         }
 
-        ArrayList<Integer> first = new ArrayList<>();
-        ArrayList<Integer> second = new ArrayList<>();
-
-        for(int i=0; i<ans.size(); i++){
-            if(i%2==0){
-                first.add(ans.get(i));
-            }
-            else{
-                second.add(ans.get(i));
-            }
+        int j=1; 
+        while(j<ans.size()){
+            int t = ans.get(j);
+            two.add(t);
+            j+=2;
         }
 
-        ListNode dummy1 = new ListNode(0);
-        ListNode dummy2 = dummy1;
-        for(int v : first){
-            dummy2.next = new ListNode(v);
-            dummy2=dummy2.next;
+        ListNode dummy = new ListNode(0);
+        ListNode dummy1 = dummy;
+        for(int v : one){
+            dummy1.next = new ListNode(v);
+            dummy1=dummy1.next;
         }
-        for(int v : second){
-            dummy2.next = new ListNode(v);
-            dummy2=dummy2.next;
+        for(int v : two){
+            dummy1.next = new ListNode(v);
+            dummy1=dummy1.next;
         }
-        return dummy1.next;
-
+        return dummy.next;
         
+
+
     }
 }
