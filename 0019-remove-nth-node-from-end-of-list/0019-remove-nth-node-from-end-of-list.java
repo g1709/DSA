@@ -16,19 +16,20 @@ class Solution {
             ans.add(temp.val);
             temp=temp.next;
         }
-        int tar = ans.size()-n;
+        int target = ans.size()-n;
+
         ListNode dummy = new ListNode(0);
         ListNode dummy1 = dummy;
         for(int i=0; i<ans.size(); i++){
-            if(i==tar){
-                continue;
-            }
+            int v = ans.get(i);
+           if(i==target) continue;
+
+
             else{
-                dummy1.next = new ListNode(ans.get(i));
-                dummy1 = dummy1.next;
+                dummy1.next = new ListNode(v);
+                dummy1=dummy1.next;
             }
         }
         return dummy.next;
-        
     }
 }
