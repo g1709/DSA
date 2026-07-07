@@ -16,13 +16,15 @@ class Solution {
             ans.add(temp.val);
             temp=temp.next;
         }
+
         Collections.sort(ans);
         ListNode dummy = new ListNode(0);
         ListNode dummy1 = dummy;
         for(int v : ans){
             dummy1.next = new ListNode(v);
-            dummy1=dummy1.next;
+            dummy1 = dummy1.next;
         }
         return dummy.next;
+        
     }
 }
