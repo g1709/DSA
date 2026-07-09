@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/g1709/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0141-linked-list-cycle](https://github.com/g1709/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/g1709/DSA/tree/master/0142-linked-list-cycle-ii) |
+| [0169-majority-element](https://github.com/g1709/DSA/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/g1709/DSA/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/g1709/DSA/tree/master/0242-valid-anagram) |
 | [0349-intersection-of-two-arrays](https://github.com/g1709/DSA/tree/master/0349-intersection-of-two-arrays) |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/g1709/DSA/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/g1709/DSA/tree/master/0088-merge-sorted-array) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/g1709/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0169-majority-element](https://github.com/g1709/DSA/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/g1709/DSA/tree/master/0217-contains-duplicate) |
 | [0239-sliding-window-maximum](https://github.com/g1709/DSA/tree/master/0239-sliding-window-maximum) |
 | [0283-move-zeroes](https://github.com/g1709/DSA/tree/master/0283-move-zeroes) |
@@ -111,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/g1709/DSA/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/g1709/DSA/tree/master/0169-majority-element) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/g1709/DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Segment Tree
 |  |
@@ -124,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/g1709/DSA/tree/master/0169-majority-element) |
 | [0383-ransom-note](https://github.com/g1709/DSA/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/g1709/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/g1709/DSA/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -159,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/g1709/DSA/tree/master/0015-3sum) |
 | [0088-merge-sorted-array](https://github.com/g1709/DSA/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/g1709/DSA/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/g1709/DSA/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/g1709/DSA/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/g1709/DSA/tree/master/0242-valid-anagram) |
 | [0349-intersection-of-two-arrays](https://github.com/g1709/DSA/tree/master/0349-intersection-of-two-arrays) |
