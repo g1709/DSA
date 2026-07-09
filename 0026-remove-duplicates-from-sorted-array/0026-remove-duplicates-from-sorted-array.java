@@ -4,13 +4,13 @@ class Solution {
         for(int v : nums){
             set.add(v);
         }
-        int count = set.size();
-        List<Integer> lis =  new ArrayList<>(set);
-        Collections.sort(lis);
-        for(int i=0; i<lis.size(); i++){
-            nums[i] = lis.get(i);
+        ArrayList<Integer> list = new ArrayList<>(set);
+        Collections.sort(list);
+        int pointer = 0;
+        for(int k : list){
+            nums[pointer++] = k; 
         }
-        return count;
+        return pointer;
         
     }
 }
