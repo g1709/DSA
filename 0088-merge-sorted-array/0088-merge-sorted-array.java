@@ -1,16 +1,17 @@
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        ArrayList<Integer> list = new ArrayList<>();
+        ArrayList<Integer> ans = new ArrayList<>();
         for(int i=0; i<m; i++){
-            list.add(nums1[i]);
+            ans.add(nums1[i]);
         }
-        for(int v : nums2){
-            list.add(v);
+        for(int i=0; i<n; i++){
+            ans.add(nums2[i]);
+        }
 
-        }
-        Collections.sort(list);
-        for(int i=0; i<list.size(); i++){
-            nums1[i] = list.get(i);
+        Collections.sort(ans);
+        int pointer=0;
+        for(int v : ans){
+            nums1[pointer++] = v;
         }
         
     }
