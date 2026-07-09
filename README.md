@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/g1709/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/g1709/DSA/tree/master/0027-remove-element) |
 | [0042-trapping-rain-water](https://github.com/g1709/DSA/tree/master/0042-trapping-rain-water) |
+| [0046-permutations](https://github.com/g1709/DSA/tree/master/0046-permutations) |
 | [0055-jump-game](https://github.com/g1709/DSA/tree/master/0055-jump-game) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/g1709/DSA/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/g1709/DSA/tree/master/0088-merge-sorted-array) |
@@ -257,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/g1709/DSA/tree/master/0022-generate-parentheses) |
+| [0046-permutations](https://github.com/g1709/DSA/tree/master/0046-permutations) |
 | [0257-binary-tree-paths](https://github.com/g1709/DSA/tree/master/0257-binary-tree-paths) |
 ## Memoization
 |  |
