@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/g1709/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/g1709/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/g1709/DSA/tree/master/0148-sort-list) |
+| [0151-reverse-words-in-a-string](https://github.com/g1709/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/g1709/DSA/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/g1709/DSA/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/g1709/DSA/tree/master/0283-move-zeroes) |
@@ -189,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/g1709/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0022-generate-parentheses](https://github.com/g1709/DSA/tree/master/0022-generate-parentheses) |
 | [0058-length-of-last-word](https://github.com/g1709/DSA/tree/master/0058-length-of-last-word) |
+| [0151-reverse-words-in-a-string](https://github.com/g1709/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/g1709/DSA/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/g1709/DSA/tree/master/0257-binary-tree-paths) |
 | [0383-ransom-note](https://github.com/g1709/DSA/tree/master/0383-ransom-note) |
