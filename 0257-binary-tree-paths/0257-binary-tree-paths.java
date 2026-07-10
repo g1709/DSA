@@ -14,7 +14,7 @@
  * }
  */
 class Solution {
-    public static void solve(TreeNode root, ArrayList<String> ans,  String s){
+    public static void solve(TreeNode root, ArrayList<String> ans,String s){
         if(root==null) return;
         if(root.left==null && root.right==null){
             s+=root.val;
@@ -23,16 +23,14 @@ class Solution {
         }
         solve(root.left, ans, s+root.val+"->");
         solve(root.right, ans, s+root.val+"->");
-        
-
     }
 
 
     public List<String> binaryTreePaths(TreeNode root) {
         ArrayList<String> ans = new ArrayList<>();
-         solve(root, ans, "");
-         return ans;
-        
+        String s = "";
+        solve(root, ans, "");
+        return ans;
         
     }
 }
