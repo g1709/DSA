@@ -14,29 +14,29 @@
  * }
  */
 class Solution {
-    public static boolean isSymmetric(TreeNode p, TreeNode q){
+    public static TreeNode invert(TreeNode root){
+        if(root==null) return null;
+
+        TreeNode left = root.left;
+        TreeNode right = root.right;
+        root.left = invert(right);
+        root.right = invert(left);
+
+        return root;
+
+    }
+
+
+    public static boolean same(TreeNode p, TreeNode q){
         if(p==null && q==null) return true;
         if(p==null || q==null) return false;
         if(p.val!=q.val) return false;
-        return isSymmetric(p.left, q.right) && isSymmetric(p.right, q.left);
-
+        return same(p.left, q.left) && same(p.right, q.right);
     }
-
-
-    public static TreeNode invert(TreeNode root){
-        if(root==null) return null;
-        TreeNode l = root.left;
-        TreeNode  r = root.right;
-        root.left = invert(l);
-        root.right = invert(r);
-
-        return root;
-    }
-
 
     public boolean isSymmetric(TreeNode root) {
         root.left = invert(root.left);
-        return isSymmetric(root.left, root.right);
+        return same(root.left, root.right);
 
         
     }
