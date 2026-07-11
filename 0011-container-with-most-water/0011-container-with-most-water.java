@@ -5,14 +5,18 @@ class Solution {
         int j=n-1;
         int maxi=0;
         while(i<j){
-            int heigh = Math.min(height[i], height[j]);
-            int width = j-i;
-            int area = heigh*width;
-            maxi=Math.max(maxi, area);
+            int length = j-i;
+            int h = Math.min(height[i], height[j]);
+            int ans = length*h;
+            maxi=Math.max(maxi, ans);
+
             if(height[i]<height[j]){
                 i++;
             }
-            else{
+             else if(height[i]==height[j]){
+                i++;
+            }
+            else if(height[i]>height[j]){
                 j--;
             }
         }
