@@ -16,12 +16,10 @@
 class Solution {
     public static void solve(TreeNode root,  ArrayList<Integer> ans){
         if(root==null) return;
-
         ans.add(root.val);
         solve(root.left, ans);
-        solve(root.right, ans); 
+        solve(root.right, ans);
     }
-
 
     public List<Integer> preorderTraversal(TreeNode root) {
         ArrayList<Integer> ans = new ArrayList<>();
