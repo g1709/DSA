@@ -15,29 +15,25 @@
  */
 class Solution {
     public static TreeNode invert(TreeNode root){
-        if(root==null) return null;
-
-        TreeNode left = root.left;
-        TreeNode right = root.right;
-        root.left = invert(right);
-        root.right = invert(left);
-
+        if(root == null) return null;
+        TreeNode left = invert(root.left);
+        TreeNode right = invert(root.right);
+        root.left = right;
+        root.right = left;
         return root;
-
     }
-
 
     public static boolean same(TreeNode p, TreeNode q){
         if(p==null && q==null) return true;
         if(p==null || q==null) return false;
         if(p.val!=q.val) return false;
-        return same(p.left, q.left) && same(p.right, q.right);
+        return same(p.left, q.right) && same(p.right, q.left);
     }
 
-    public boolean isSymmetric(TreeNode root) {
-        root.left = invert(root.left);
-        return same(root.left, root.right);
 
+    public boolean isSymmetric(TreeNode root) {
+        if(root==null) return true;
+        return same(root.left, root.right);
         
     }
 }
