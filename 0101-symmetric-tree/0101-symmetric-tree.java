@@ -15,7 +15,7 @@
  */
 class Solution {
     public static TreeNode invert(TreeNode root){
-        if(root == null) return null;
+        if(root==null) return null;
         TreeNode left = invert(root.left);
         TreeNode right = invert(root.right);
         root.left = right;
@@ -23,7 +23,7 @@ class Solution {
         return root;
     }
 
-    public static boolean same(TreeNode p, TreeNode q){
+    public static  boolean same(TreeNode p, TreeNode q){
         if(p==null && q==null) return true;
         if(p==null || q==null) return false;
         if(p.val!=q.val) return false;
