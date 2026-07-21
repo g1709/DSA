@@ -5,7 +5,6 @@ class Solution {
         int count=0;
         HashMap<Integer, Integer> map = new HashMap<>();
         map.put(0, 1);
-      
         for(int v : nums){
             sum+=v;
             int temp = sum-k;
@@ -14,7 +13,6 @@ class Solution {
             }
             map.put(sum, map.getOrDefault(sum, 0)+1);
         }
-    return count;
-        
+        return count;
     }
 }
