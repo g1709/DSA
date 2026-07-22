@@ -1,13 +1,17 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
-        int n = nums.length;
-        int j=1;
-        for(int i=1; i<n; i++){
-            if(nums[i]!=nums[j-1]){
-                nums[j]=nums[i];
-                j++;
-            }
+        
+        HashSet<Integer> set = new HashSet<>();
+        for(int v : nums){
+            set.add(v);
         }
-        return j;
+        
+        ArrayList<Integer> list = new ArrayList<>(set);
+        Collections.sort(list);
+        int ptr = 0;
+        for(int v : list){
+            nums[ptr++] = v; 
+        }
+        return ptr;
     }
 }
