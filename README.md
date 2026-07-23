@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/g1709/DSA/tree/master/0046-permutations) |
 | [0055-jump-game](https://github.com/g1709/DSA/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/g1709/DSA/tree/master/0056-merge-intervals) |
+| [0057-insert-interval](https://github.com/g1709/DSA/tree/master/0057-insert-interval) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/g1709/DSA/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/g1709/DSA/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/g1709/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
