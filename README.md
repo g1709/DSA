@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/g1709/DSA/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/g1709/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0049-group-anagrams](https://github.com/g1709/DSA/tree/master/0049-group-anagrams) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/g1709/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0141-linked-list-cycle](https://github.com/g1709/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/g1709/DSA/tree/master/0142-linked-list-cycle-ii) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/g1709/DSA/tree/master/0027-remove-element) |
 | [0042-trapping-rain-water](https://github.com/g1709/DSA/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/g1709/DSA/tree/master/0046-permutations) |
+| [0049-group-anagrams](https://github.com/g1709/DSA/tree/master/0049-group-anagrams) |
 | [0055-jump-game](https://github.com/g1709/DSA/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/g1709/DSA/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/g1709/DSA/tree/master/0057-insert-interval) |
@@ -208,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/g1709/DSA/tree/master/0015-3sum) |
+| [0049-group-anagrams](https://github.com/g1709/DSA/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/g1709/DSA/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/g1709/DSA/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/g1709/DSA/tree/master/0148-sort-list) |
@@ -227,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/g1709/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0014-longest-common-prefix](https://github.com/g1709/DSA/tree/master/0014-longest-common-prefix) |
 | [0022-generate-parentheses](https://github.com/g1709/DSA/tree/master/0022-generate-parentheses) |
+| [0049-group-anagrams](https://github.com/g1709/DSA/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/g1709/DSA/tree/master/0058-length-of-last-word) |
 | [0125-valid-palindrome](https://github.com/g1709/DSA/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/g1709/DSA/tree/master/0151-reverse-words-in-a-string) |
