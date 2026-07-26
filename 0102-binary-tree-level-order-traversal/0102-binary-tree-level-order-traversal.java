@@ -14,18 +14,18 @@
  * }
  */
 class Solution {
- public List<List<Integer>> levelOrder(TreeNode root) {
-    if(root==null) return new ArrayList<>();
-        
-        List<List<Integer>> answer = new ArrayList<>();
+    public List<List<Integer>> levelOrder(TreeNode root) {
+        if(root==null) return new ArrayList<>();
         Queue<TreeNode> q = new LinkedList<>();
         q.add(root);
+        List<List<Integer>> answer = new LinkedList<>();
         while(!q.isEmpty()){
-            ArrayList<Integer> list = new ArrayList<>();
             int size = q.size();
+            ArrayList<Integer> ans = new ArrayList<>();
             for(int i=0; i<size; i++){
                 TreeNode temp = q.remove();
-                list.add(temp.val);
+                ans.add(temp.val);
+
                 if(temp.left!=null){
                     q.add(temp.left);
                 }
@@ -33,10 +33,9 @@ class Solution {
                     q.add(temp.right);
                 }
             }
-            answer.add(list);
+            answer.add(ans);
         }
-        return answer;
 
-        
+    return answer;   
     }
 }
