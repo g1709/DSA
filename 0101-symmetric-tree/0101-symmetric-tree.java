@@ -23,17 +23,17 @@ class Solution {
         return root;
     }
 
-    public static  boolean same(TreeNode p, TreeNode q){
+    public static boolean solve(TreeNode p, TreeNode q){
         if(p==null && q==null) return true;
         if(p==null || q==null) return false;
         if(p.val!=q.val) return false;
-        return same(p.left, q.right) && same(p.right, q.left);
-    }
+        return solve(p.left, q.left) && solve(p.right, q.right);
+     }
 
 
     public boolean isSymmetric(TreeNode root) {
-        if(root==null) return true;
-        return same(root.left, root.right);
+        invert(root.left);
+        return solve(root.left, root.right);
         
     }
 }
