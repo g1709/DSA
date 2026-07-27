@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/g1709/DSA/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/g1709/DSA/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/g1709/DSA/tree/master/0724-find-pivot-index) |
+| [0746-min-cost-climbing-stairs](https://github.com/g1709/DSA/tree/master/0746-min-cost-climbing-stairs) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/g1709/DSA/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1004-max-consecutive-ones-iii](https://github.com/g1709/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1260-shift-2d-grid](https://github.com/g1709/DSA/tree/master/1260-shift-2d-grid) |
@@ -194,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/g1709/DSA/tree/master/0392-is-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/g1709/DSA/tree/master/0435-non-overlapping-intervals) |
 | [0509-fibonacci-number](https://github.com/g1709/DSA/tree/master/0509-fibonacci-number) |
+| [0746-min-cost-climbing-stairs](https://github.com/g1709/DSA/tree/master/0746-min-cost-climbing-stairs) |
 ## Greedy
 |  |
 | ------- |
