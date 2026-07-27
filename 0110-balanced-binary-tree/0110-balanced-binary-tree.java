@@ -20,13 +20,12 @@ class Solution {
     }
 
 
-
     public boolean isBalanced(TreeNode root) {
         if(root==null) return true;
         int left = height(root.left);
         int right = height(root.right);
-        int diff = Math.abs(left-right);
-        if(diff>1) return false;
+        int temp = Math.abs(left-right);
+        if(temp>1) return false;
         return isBalanced(root.left) && isBalanced(root.right);
         
     }
