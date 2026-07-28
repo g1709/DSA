@@ -1,12 +1,18 @@
 class Solution {
+    static int dp[];
+    public static int solve(int i, int nums[]){
+        if(i>=nums.length) return 0;
+        if(dp[i]!=-1) return dp[i];
+        int take = nums[i]+solve(i+2, nums);
+        int not = solve(i+1, nums);
+        return dp[i] = Math.max(take, not);
+    }
+
+
     public int rob(int[] nums) {
-        int n = nums.length;
-        int dp[] = new int[n];
-        dp[0]=nums[0];
-        if(n>1) dp[1] = Math.max(nums[0], nums[1]);
-        for(int i=2; i<n; i++){
-            dp[i] = Math.max(nums[i]+dp[i-2], dp[i-1]);
-        }
-    return dp[n-1];
+        dp = new int[nums.length+1];
+        Arrays.fill(dp, -1);
+        return solve(0, nums);
+        
     }
 }
