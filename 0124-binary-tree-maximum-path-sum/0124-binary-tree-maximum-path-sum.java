@@ -1,36 +1,21 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
+
 class Solution {
-    public static int solve(TreeNode root, int maxi[]){
+    public static int solve(TreeNode root, int arr[]){
         if(root==null) return 0;
-        int left = Math.max(0, solve(root.left, maxi));
-        int right =  Math.max(0, solve(root.right, maxi));
-        int sum = left + right + root.val;
-        maxi[0] = Math.max(maxi[0], sum);
+        int left =  Math.max(0,solve(root.left, arr));
+        int right =  Math.max(0,solve(root.right, arr));
+        int temp = root.val + left + right;
+        arr[0] = Math.max(arr[0], temp);
 
         return root.val+Math.max(left, right);
 
     }
 
-    public int maxPathSum(TreeNode root) {
-        int[] maxi = {Integer.MIN_VALUE};
-        if(root==null) return 0;
-        solve(root, maxi);
-        return maxi[0];
 
+    public int maxPathSum(TreeNode root) {
+        int arr[] =  {Integer.MIN_VALUE};
+        solve(root, arr);
+        return arr[0];
         
     }
 }
