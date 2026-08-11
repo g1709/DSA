@@ -20,20 +20,20 @@ class Solution {
         TreeNode right = invert(root.right);
         root.left = right;
         root.right = left;
+
         return root;
     }
 
-    public static boolean solve(TreeNode p, TreeNode q){
-        if(p==null && q==null) return true;
+    public static boolean same(TreeNode p, TreeNode q){
+        if(p==null && q== null) return true;
         if(p==null || q==null) return false;
         if(p.val!=q.val) return false;
-        return solve(p.left, q.left) && solve(p.right, q.right);
-     }
-
+        return same(p.left, q.left) && same(p.right, q.right);
+    }
 
     public boolean isSymmetric(TreeNode root) {
         invert(root.left);
-        return solve(root.left, root.right);
+       return same(root.left, root.right);
         
     }
 }
