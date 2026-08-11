@@ -19,20 +19,22 @@ class Solution {
         ArrayList<Integer> ans = new ArrayList<>();
         Queue<TreeNode> q = new LinkedList<>();
         q.add(root);
-       
         while(!q.isEmpty()){
-             int size = q.size();
-              
+            int size = q.size();
             for(int i=0; i<size; i++){
-               TreeNode temp = q.remove();
+                TreeNode temp = q.remove();
                 if(i==size-1){
                     ans.add(temp.val);
                 }
-                if(temp.left!=null) q.add(temp.left);
-                if(temp.right!=null) q.add(temp.right);
+                if(temp.left!=null){
+                    q.add(temp.left);
+                }
+                if(temp.right!=null){
+                    q.add(temp.right);
+                }
             }
-
         }
-    return ans;
+        return ans;
+        
     }
 }
