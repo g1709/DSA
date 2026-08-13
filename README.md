@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/g1709/DSA/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/g1709/DSA/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/g1709/DSA/tree/master/0057-insert-interval) |
+| [0074-search-a-2d-matrix](https://github.com/g1709/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/g1709/DSA/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/g1709/DSA/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/g1709/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -279,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/g1709/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/g1709/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/g1709/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/g1709/DSA/tree/master/0222-count-complete-tree-nodes) |
@@ -404,6 +406,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/g1709/DSA/tree/master/0074-search-a-2d-matrix) |
 | [1260-shift-2d-grid](https://github.com/g1709/DSA/tree/master/1260-shift-2d-grid) |
 ## Simulation
 |  |
