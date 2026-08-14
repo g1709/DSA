@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/g1709/DSA/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/g1709/DSA/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/g1709/DSA/tree/master/0049-group-anagrams) |
+| [0053-maximum-subarray](https://github.com/g1709/DSA/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/g1709/DSA/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/g1709/DSA/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/g1709/DSA/tree/master/0057-insert-interval) |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/g1709/DSA/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/g1709/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0148-sort-list](https://github.com/g1709/DSA/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/g1709/DSA/tree/master/0169-majority-element) |
@@ -194,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/g1709/DSA/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/g1709/DSA/tree/master/0042-trapping-rain-water) |
+| [0053-maximum-subarray](https://github.com/g1709/DSA/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/g1709/DSA/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/g1709/DSA/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/g1709/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
