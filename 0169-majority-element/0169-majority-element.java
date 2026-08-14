@@ -5,10 +5,11 @@ class Solution {
         for(int v : nums){
             map.put(v, map.getOrDefault(v, 0)+1);
         }
-
-        for(int v : nums){
-            if(map.get(v)>n/2) return v;
+        for(int k : nums){
+            if(map.get(k)>n/2){
+                return k;
+            }
         }
-        return -1;
+    return -1;
     }
 }
