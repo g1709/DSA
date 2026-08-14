@@ -436,4 +436,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/g1709/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/g1709/DSA/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
