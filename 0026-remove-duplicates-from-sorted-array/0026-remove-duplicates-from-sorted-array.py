@@ -4,16 +4,8 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        n = len(nums)
-        j = 0
-        for i in range(0,n):
-            if nums[i] != nums[j]:
-                j+=1
-                nums[j] = nums[i]
-                
-
-        return j+1
-
-
-
+        unique = sorted(set(nums))
+        for i in range(len(unique)):
+            nums[i] = unique[i]
+        return len(unique)
         
