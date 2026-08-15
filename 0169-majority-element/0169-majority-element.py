@@ -4,12 +4,12 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+
+        n = len(nums)
         freq = {}
         for num in nums:
             freq[num] = freq.get(num, 0)+1
-        
-        for numbers in nums:
-            temp = freq.get(numbers)
-            if temp > len(nums)/2:
-               return numbers
+        for num, count in freq.items():
+            if count > n//2:
+                return num
         return -1
