@@ -5,11 +5,12 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        freq =  {}
-        for i in range (len(nums)):
+        freq = {}
+        for i in range(len(nums)):
             complement = target - nums[i]
             if complement in freq:
                 return [freq[complement], i]
             freq[nums[i]] = i
         return [-1, -1]
+
         
