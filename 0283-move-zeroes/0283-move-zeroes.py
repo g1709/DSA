@@ -13,4 +13,5 @@ class Solution(object):
                 nums[j] = temp
                 j+=1
             i+=1
+
         
