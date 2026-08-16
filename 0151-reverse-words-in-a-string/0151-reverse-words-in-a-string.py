@@ -4,6 +4,6 @@ class Solution(object):
         :type s: str
         :rtype: str
         """
-
         words = s.split()
         return " ".join(reversed(words))
+        
