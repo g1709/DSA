@@ -9,15 +9,15 @@ class Solution(object):
         :type head: Optional[ListNode]
         :rtype: Optional[ListNode]
         """
-        ans = []
+        list = []
         temp = head
         while temp != None:
-            ans.append(temp.val)
+            list.append(temp.val)
             temp = temp.next
-        ans.sort()
+        list.sort()
         dummy = ListNode(0)
         dummy1 = dummy
-        for num in ans:
+        for num in list:
             dummy1.next = ListNode(num)
             dummy1 = dummy1.next
         return dummy.next
