@@ -488,4 +488,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0142-linked-list-cycle-ii](https://github.com/g1709/DSA/tree/master/0142-linked-list-cycle-ii) |
+## Quicksort
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/g1709/DSA/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
