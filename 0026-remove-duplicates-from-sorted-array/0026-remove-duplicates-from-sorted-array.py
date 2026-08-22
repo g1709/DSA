@@ -4,8 +4,8 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        unique = sorted(set(nums))
-        for i in range(len(unique)):
-            nums[i] = unique[i]
-        return len(unique)
+        s = sorted(set(nums))
+        for  i in range(len(s)):
+            nums[i] = s[i]
         
+        return len(s)
