@@ -5,12 +5,11 @@ class Solution(object):
         :rtype: int
         """
         freq = {}
-        for num in nums:
+        for num in  nums:
             freq[num] = freq.get(num, 0)+1
-        
-        for num, count in freq.items():
-            if count==1:
-                return num
+
+        for key, value in freq.items():
+            if value == 1:
+                return key
         return -1
-            
         
