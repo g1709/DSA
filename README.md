@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/g1709/DSA/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/g1709/DSA/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/g1709/DSA/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/g1709/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/g1709/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0392-is-subsequence](https://github.com/g1709/DSA/tree/master/0392-is-subsequence) |
 | [0876-middle-of-the-linked-list](https://github.com/g1709/DSA/tree/master/0876-middle-of-the-linked-list) |
@@ -118,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/g1709/DSA/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/g1709/DSA/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/g1709/DSA/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/g1709/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/g1709/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0414-third-maximum-number](https://github.com/g1709/DSA/tree/master/0414-third-maximum-number) |
 | [0435-non-overlapping-intervals](https://github.com/g1709/DSA/tree/master/0435-non-overlapping-intervals) |
@@ -314,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/g1709/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/g1709/DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/g1709/DSA/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/g1709/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/g1709/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0540-single-element-in-a-sorted-array](https://github.com/g1709/DSA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/g1709/DSA/tree/master/0704-binary-search) |
@@ -434,6 +437,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/g1709/DSA/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/g1709/DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/g1709/DSA/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/g1709/DSA/tree/master/0287-find-the-duplicate-number) |
 ## Matrix
 |  |
 | ------- |
@@ -488,8 +492,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0142-linked-list-cycle-ii](https://github.com/g1709/DSA/tree/master/0142-linked-list-cycle-ii) |
+| [0287-find-the-duplicate-number](https://github.com/g1709/DSA/tree/master/0287-find-the-duplicate-number) |
 ## Quicksort
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/g1709/DSA/tree/master/0056-merge-intervals) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/g1709/DSA/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
