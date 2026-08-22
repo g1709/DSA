@@ -7,9 +7,8 @@ class Solution(object):
         """
         freq = {}
         for i, num in enumerate(nums):
-            complement = target-nums[i]
+            complement = target-num
             if complement in freq:
                 return [freq[complement], i]
-            freq[num] = i
-        return []
-        
+            freq[num]  = i
+        return [] 
