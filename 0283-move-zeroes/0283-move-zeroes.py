@@ -6,7 +6,8 @@ class Solution(object):
         """
         i = 0
         j = 0
-        while i < len(nums):
+        n = len(nums)
+        while i < n:
             if nums[i] != 0:
                 temp = nums[i]
                 nums[i] = nums[j]
@@ -14,4 +15,5 @@ class Solution(object):
                 j+=1
             i+=1
 
+        
         
