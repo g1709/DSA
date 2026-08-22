@@ -5,7 +5,16 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
-        si = sorted(s)
-        ti = sorted(t)
-        return si == ti
-        
+        freq = {}
+        for ch in s:
+            freq[ch] = freq.get(ch, 0)+1
+        for ch in t:
+            if ch not in freq or freq[ch] == 0:
+                return False
+            freq[ch] = freq.get(ch, 0)-1
+
+        for v in freq.values():
+            if v>0:
+                return False
+
+        return True
