@@ -6,5 +6,10 @@ class Solution(object):
         :rtype: None Do not return anything, modify nums in-place instead.
         """
         n = len(nums)
-        k = k%n
-        nums[:] = nums[-k:] + nums[:-k]
+        k=k%n
+        ans = [0]*n
+        for i in range(len(nums)):
+            ans[(i+k)%n] = nums[i]
+        for i in range(len(ans)):
+            nums[i] = ans[i]
+        
