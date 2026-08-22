@@ -6,11 +6,10 @@ class Solution(object):
         :rtype: List[int]
         """
         freq = {}
-        for i in range(len(nums)):
-            complement = target - nums[i]
+        for i, num in enumerate(nums):
+            complement = target-nums[i]
             if complement in freq:
                 return [freq[complement], i]
-            freq[nums[i]] = i
-        return [-1, -1]
-
+            freq[num] = i
+        return []
         
