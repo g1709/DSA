@@ -4,13 +4,12 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        ans = 0
-        maxi = nums[0]
-        for i in range(len(nums)):
-            ans += nums[i]
-            maxi = max(maxi, ans)
-            if ans < 0:
-                ans = 0
+        maxi=nums[0]
+        sum=0
+        for num in nums:
+            sum+=num
+            maxi=max(maxi,sum)
+            if sum<0:
+                sum=0
         return maxi
 
-        
