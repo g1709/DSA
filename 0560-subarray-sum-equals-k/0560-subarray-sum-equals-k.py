@@ -5,14 +5,16 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
-        freq = {0: 1}
+        freq = {0:1}
         sum = 0
         count = 0
-        for i in range(len(nums)):
-            sum+=nums[i]
-            complement = sum - k
+        for num in nums:
+            sum+=num
+            complement = sum-k
             if complement in freq:
                 count+=freq[complement]
             freq[sum] = freq.get(sum, 0)+1
         return count
 
+        
+        
