@@ -4,8 +4,10 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        s = sorted(set(nums))
-        for  i in range(len(s)):
-            nums[i] = s[i]
-        
-        return len(s)
+        list = set()
+        for num in nums:
+            list.add(num)
+        list = sorted(list)
+        for i, num in enumerate(list):
+            nums[i] = num
+        return len(list)
