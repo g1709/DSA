@@ -1,16 +1,16 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
-        int n = nums.length;
         HashSet<Integer> set = new HashSet<>();
         for(int v : nums){
             set.add(v);
         }
-        ArrayList<Integer> list = new ArrayList<>(set);
-        Collections.sort(list);
-        int pointer = 0;
-        for(int k : list){
-            nums[pointer++] = k;
+        ArrayList<Integer> sett = new ArrayList<>(set);
+        Collections.sort(sett);
+        int pointer=0;
+        for(int v : sett){
+            nums[pointer++] = v;
         }
-    return pointer;       
+        return pointer;
+        
     }
 }
