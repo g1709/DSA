@@ -4,11 +4,10 @@ class Solution {
         StringBuilder sb = new StringBuilder();
         for(int i=s.length()-1; i>=0; i--){
             sb.append(s.charAt(i));
-
         }
-        String h = sb.toString();
-        if(h.equals(s)) return true;
-    return false;
+        String ss = sb.toString();
+        if(s.equals(ss)) return true;
+        return false;
         
     }
 }
