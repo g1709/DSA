@@ -18,16 +18,13 @@ class Solution {
         if(root==null) return 0;
         int left = solve(root.left, arr);
         int right = solve(root.right, arr);
-        int temp = left+right;
-        arr[0] = Math.max(arr[0], temp);
+        arr[0] = Math.max(arr[0], left+right);
         return 1+Math.max(left, right);
     }
-
 
     public int diameterOfBinaryTree(TreeNode root) {
         int arr[] = {Integer.MIN_VALUE};
         solve(root, arr);
         return arr[0];
-        
     }
 }
